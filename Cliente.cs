@@ -1,9 +1,6 @@
-using System;
-using System.Collections.Generic;
-
 namespace AninhamentoObjetos
 {
-    public class Cliente
+    public class Cliente : Endereco
     {
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -11,6 +8,6 @@ namespace AninhamentoObjetos
         public string Profissao { get; set; }
         public string EstadoCivil { get; set; }
         public string Documento { get; set; }
-
+        public List<Endereco> ListaEndereco { get; set; }
     }
 }

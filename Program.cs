@@ -7,7 +7,7 @@
     Documento = "12345678901"
 };
 
-var listaEnderecos = new List<Endereco>();
+cliente.ListaEndereco = new List<Endereco>();
 
 var endereco1 = new Endereco
 {
@@ -18,7 +18,7 @@ var endereco1 = new Endereco
     Estado = "sp"
 };
 
-listaEnderecos.Add(endereco1);
+cliente.ListaEndereco.Add(endereco1);
 
 var endereco2 = new Endereco
 {
@@ -29,7 +29,7 @@ var endereco2 = new Endereco
     Estado = "sc"
 };
 
-listaEnderecos.Add(endereco2);
+cliente.ListaEndereco.Add(endereco2);
 
 var endereco3 = new Endereco
 {
@@ -40,6 +40,6 @@ var endereco3 = new Endereco
     Estado = "am"
 };
 
-listaEnderecos.Add(endereco3);
+cliente.ListaEndereco.Add(endereco3);
 
-Console.WriteLine($"Oi, meu nome é {cliente.Nome}, tenho {cliente.Idade} anos e sou {cliente.Profissao}. Atualmente estou {cliente.EstadoCivil} e tenho {listaEnderecos.Count} endereços cadastrados.");
+Console.WriteLine($"Oi, meu nome é {cliente.Nome}, tenho {cliente.Idade} anos e sou {cliente.Profissao}. Atualmente estou {cliente.EstadoCivil} e tenho {cliente.ListaEndereco.Count} endereços cadastrados.");
