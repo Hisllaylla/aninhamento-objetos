@@ -1,6 +1,6 @@
 namespace AninhamentoObjetos
 {
-    public class Cliente : Endereco
+    public class Cliente
     {
         public int Id { get; set; }
         public string Nome { get; set; }
