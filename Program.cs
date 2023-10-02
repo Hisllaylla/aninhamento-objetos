@@ -1,4 +1,10 @@
-﻿var cliente = new Cliente
+﻿// o termo "aninhar objetos" refere-se à prática de criar objetos de uma classe dentro de outra classe. 
+// isso é feito para compor objetos complexos a partir de objetos mais simples, criando assim estruturas de dados mais complexas e hierárquicas.
+
+// por exemplo, nesse projeto, foi criado a classe CLIENTE, e dentro dela uma CLASSE LISTA DE ENDEREÇOS, assim criando uma estrutura de aninhamento,
+// onde um objeto contém outros objetos como parte de sua composição.
+
+var cliente = new Cliente
 {
     Nome = "Jonathan",
     Idade = "30",
